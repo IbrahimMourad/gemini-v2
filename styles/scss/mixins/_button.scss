@@ -1,0 +1,21 @@
+@mixin Button($background-color, $color) {
+  background-color: $background-color;
+  color: $color;
+  border-color: $background-color;
+  border-radius: 0;
+
+  @include fontFamily($ff-bold, $fs-regular, $fw-semibold);
+
+  &:hover {
+    background-color: $background-color;
+    border-color: $background-color;
+
+    cursor: pointer;
+  }
+  &:focus {
+    color: #fff;
+    background-color: $background-color;
+    border-color: $background-color;
+    // box-shadow: 0 0 0 0.25rem rgba(245, 104, 77, 0.5);
+  }
+}

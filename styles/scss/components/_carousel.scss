@@ -1,0 +1,39 @@
+// @import '../mixins/_mixins';
+// .carousel {
+//   .carousel-caption {
+//     @include flex(column, flex-start, flex-start);
+//     height: 100%;
+//     width: 70%;
+//     text-align: right;
+//     padding-bottom: 0;
+//     color: #000;
+//     top: 5px;
+//     padding: 0;
+//     @media screen and (min-width: $media-md) {
+//       @include flex(column, center, flex-start);
+//     }
+//   }
+//   .carousel-control-wrap {
+//     @include flex(column, center, center);
+//     background-color: $color-main;
+//     width: 2rem;
+//     height: 2rem;
+//     @media screen and (min-width: $media-md) {
+//       width: 50px;
+//       height: 50px;
+//     }
+//     border-radius: 50%;
+//   }
+//   .carousel-control-next-icon,
+//   .carousel-control-prev-icon {
+//     width: 1rem;
+//     height: 1rem;
+//   }
+//   .btn-primary {
+//     margin-top: 0.5rem;
+//     @media screen and (min-width: $media-md) {
+//       margin-top: 1rem;
+//       padding: 0.375rem 2.75rem;
+//     }
+//   }
+// }
